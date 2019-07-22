@@ -26,6 +26,17 @@ public class UserController {
 	@Resource
 	private UserServiceInter userServiceInter;
 	
+	@RequestMapping("/index")
+    public String git() {
+//    	log.error("Hello Jyz. error log.......");
+//    	log.warn("Hello Jyz. warn log.......");
+//    	log.info("Hello Jyz. info log.......");
+//    	log.debug("Hello Jyz. debug log.......");
+//    	log.trace("Hello Jyz. trace log.......");
+//    	readProperties();
+        return "Hello git. v1.0.1";
+    }
+	
     @RequestMapping("/index")
     public String home() {
 //    	log.error("Hello Jyz. error log.......");
