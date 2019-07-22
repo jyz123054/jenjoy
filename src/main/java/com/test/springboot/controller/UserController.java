@@ -34,7 +34,7 @@ public class UserController {
 //    	log.debug("Hello Jyz. debug log.......");
 //    	log.trace("Hello Jyz. trace log.......");
 //    	readProperties();
-        return "Hello git. v1.0.1";
+        return "Hello git. v1.0.1    J0201mod";
     }
 	
     @RequestMapping("/index")
