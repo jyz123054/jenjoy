@@ -34,7 +34,7 @@ public class UserController {
 //    	log.debug("Hello Jyz. debug log.......");
 //    	log.trace("Hello Jyz. trace log.......");
 //    	readProperties();
-        return "Hello git. v1.0.1    J0201mod  merge github SSH GitHub modify0723-1404 abc";
+        return "Hello git. v1.0.1    J0201mod  merge github SSH GitHub modify0723-1404 commit and push";
     }
 	
     @RequestMapping("/index")
